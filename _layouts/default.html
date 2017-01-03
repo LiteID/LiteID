@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>LiteID - {{ page.title }}</title>
+
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<link rel="shortcut icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/Logos/icon-512.png">
+	<meta name="viewport" content="width=device-width">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<h1>LiteID</h1>
+
+	<table border="0" cellpadding="0" cellspacing="0">
+	{% for node in site.pages %}
+		{% unless node.url contains 'css' %}
+			{% if page.url == node.url %}
+				<tr><td style="color:black">{{node.title}}</td></tr>
+			{% else %}
+				<tr><td><a href="{{ site.url }}{{node.url | prepend:site.baseurl }}">{{node.title}}</a></td></tr>
+			{% endif %}
+		{% endunless %}
+	{% endfor %}
+	</table>
+
+		<p class="view"><a href="http://github.com/LiteID">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+	</header>
+	<section>
+
+	{{ content }}
+
+	</section>
+	<footer>
+		<p>This project is maintained by<br><a href="https://github.com/ferret-guy">ferret-guy</a> and <a href="https://github.com/pixelfelon">pixelfelon</a></p>
+	</footer>
+	</div>
+	<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
