@@ -6,7 +6,7 @@
 	<title>LiteID - {{ page.title }}</title>
 
 	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	<link rel="shortcut icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/Logos/icon-512.png">
+	<link rel="shortcut icon" type="image/png" href="{{ site.url }}/Logos/icon-512.png">
 	<meta name="viewport" content="width=device-width">
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,7 +23,7 @@
 			{% if page.url == node.url %}
 				<tr><td style="color:black">{{node.title}}</td></tr>
 			{% else %}
-				<tr><td><a href="{{ site.url }}{{node.url | prepend:site.baseurl }}">{{node.title}}</a></td></tr>
+				<tr><td><a href="{{ site.url }}{{node.url}}">{{node.title}}</a></td></tr>
 			{% endif %}
 		{% endunless %}
 	{% endfor %}
