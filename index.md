@@ -111,9 +111,9 @@ Daniel Werth: The project video.
 ### What We Learned
 ---
 Mark Omo: Much more about the inner workings of the JavaCard implementation, as well as the intricacies of how Ethereum nodes communicate with one another.
-
+<br><br>
 James Rowley: I learned quite a bit about app development, as this was my first experience with mobile apps, as well as more about the blockchain.
-
+<br><br>
 Daniel Werth: How subtle differences in video production can make huge differences in the outcome.
 
 ### What's Next for LiteID
