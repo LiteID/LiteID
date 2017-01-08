@@ -1,6 +1,6 @@
 ---
 title: Home
-menu: |
+menu: | 
  <a href="#inspiration" style="margin-bottom:1px">Inspiration</a><br>
  <a href="#research-we-did" style="margin-bottom:1px">Research we did</a><br>
  <a href="#what-it-does" style="margin-bottom:1px">What It Does</a><br>
@@ -73,7 +73,7 @@ run their own nodes with a texting interface. Using this system, an entire count
 LiteID at a fraction of the cost of a traditional eID system.
 
 ### Who Did What
----
+<hr style="height=2px;>
 Mark Omo: I worked on the SIM App and the Text Interface
 
 James Rowley: I worked on the Mobile App
@@ -93,7 +93,7 @@ which allows us to target the vast majority of mobile devices in use in the worl
 
 
 ### Challenges We Ran Into
----
+<hr style="height=2px;>
 We originally set out to write a lightweight client implementation of Ethereum in Xamarin, however
 unfortunately due to a lack of documentation on the behind-the-scenes protocols used, and a creeping
 deadline, we were not able to reimplement it from the source of geth like we had planned.
