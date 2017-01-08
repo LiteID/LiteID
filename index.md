@@ -1,6 +1,6 @@
 ---
 title: Home
-menu: | 
+menu: |
  <a href="#inspiration" style="margin-bottom:1px">Inspiration</a><br>
  <a href="#research-we-did" style="margin-bottom:1px">Research we did</a><br>
  <a href="#what-it-does" style="margin-bottom:1px">What It Does</a><br>
