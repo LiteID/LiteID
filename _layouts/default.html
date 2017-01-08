@@ -29,8 +29,11 @@
 		{% endunless %}
 	{% endfor %}
 	</table>
-
-		<p class="view"><a href="http://github.com/LiteID">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+	<br><div style="padding-left:8px;">
+	{{ page.menu }}
+	</div>
+	<br>
+	<hr>
 	</header>
 	<section>
 
@@ -38,6 +41,7 @@
 
 	</section>
 	<footer>
+		<p class="view"><a href="http://github.com/LiteID">View the Project on GitHub <small>{{ github_name }}</small></a></p>
 		<p>This project is maintained by<br><a href="https://github.com/ferret-guy">ferret-guy</a> and <a href="https://github.com/pixelfelon">pixelfelon</a><br><small>Copyright {{ site.time | date: '%Y' }} Mark Omo and James Rowley</small></p>
 	</footer>
 	</div>

@@ -73,11 +73,13 @@ run their own nodes with a texting interface. Using this system, an entire count
 LiteID at a fraction of the cost of a traditional eID system.
 
 ### Who Did What
-<hr style="height=2px;>
+
+<hr style="height:2px;">
+
 Mark Omo: I worked on the SIM App and the Text Interface
-
+<br><br>
 James Rowley: I worked on the Mobile App
-
+<br><br>
 Daniel Werth: I helped shoot and compose the video
 
 ### How We Built It
@@ -93,7 +95,7 @@ which allows us to target the vast majority of mobile devices in use in the worl
 
 
 ### Challenges We Ran Into
-<hr style="height=2px;>
+---
 We originally set out to write a lightweight client implementation of Ethereum in Xamarin, however
 unfortunately due to a lack of documentation on the behind-the-scenes protocols used, and a creeping
 deadline, we were not able to reimplement it from the source of geth like we had planned.
@@ -101,9 +103,9 @@ deadline, we were not able to reimplement it from the source of geth like we had
 ### Things That We're Proud Of
 ---
 Mark Omo: The implementation of the text server and ethereum interface, as it was my first published pypi package.
-
+<br><br>
 James Rowley: I'm very proud of how the app turned out, since it is my first.
-
+<br><br>
 Daniel Werth: The project video.
 
 ### What We Learned
