@@ -7,7 +7,7 @@ menu: |
  <a href="#liteid-simapp" style="margin-bottom:1px">LiteID-SimApp</a><br>
 ---
 
-# Reposotories
+# Repositories
 ---
 Here is an index of our repositories, and what is included in them:
 <br><br>
