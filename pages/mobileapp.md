@@ -22,10 +22,6 @@ Currently, we are only targeting smartphones with Android 2.3 (Gingerbread) or l
 of the application is cross-platform compatible, and so it would be relatively easy to create versions for
 iOS and the Universal Windows Platform.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uBBDMqZKagY" frameborder="0" allowfullscreen></iframe>
-
-<br>
-
 ### Background
 ---
 While Android has the majority of the smartphone market share in most of the world, including Africa, we
