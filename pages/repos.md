@@ -1,5 +1,5 @@
 ---
-title: Reposotories
+title: Repositories
 menu: | 
  <a href="#liteid-android" style="margin-bottom:1px">LiteID-Android</a><br>
  <a href="#liteid-contract-tools" style="margin-bottom:1px">LiteID-Contract-Tools</a><br>
